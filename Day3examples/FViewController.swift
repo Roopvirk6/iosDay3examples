@@ -14,9 +14,10 @@ class FViewController: UIViewController {
     
     @IBAction func btnirs(_sender: UIButton)
     {
-        UserDefaults.standard.set(txtfield.text, forKey: "name")
+        UserDefaults.standard.set(txtField.text, forKey: "name")
     }
     
+    @IBOutlet weak var txtField: UITextField!
     
     @IBAction func btnfetch(_ sender: UIButton)
     {
@@ -27,7 +28,6 @@ class FViewController: UIViewController {
     }
     
     
-    @IBOutlet weak var txtfield: UITextField!
     
     
     
@@ -40,8 +40,8 @@ class FViewController: UIViewController {
         
     }
     override func viewWillAppear(_ animated: Bool) {
-        txtfield.text = ""
-        labelname.text = ""
+        
+       
         
     }
 

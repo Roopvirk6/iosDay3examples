@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B01B4282411BEE600EE1BFD /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B01B4272411BEE600EE1BFD /* DataStorage.swift */; };
 		9B2744F324106FED0001FA2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2744F224106FED0001FA2A /* AppDelegate.swift */; };
 		9B2744F524106FED0001FA2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2744F424106FED0001FA2A /* SceneDelegate.swift */; };
 		9B2744F724106FED0001FA2A /* FViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2744F624106FED0001FA2A /* FViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B01B4272411BEE600EE1BFD /* DataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
 		9B2744EF24106FED0001FA2A /* iosDay3examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosDay3examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2744F224106FED0001FA2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B2744F424106FED0001FA2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				9B274506241071550001FA2A /* SecondViewController.swift */,
 				9B27450824108D330001FA2A /* ThirdViewController.swift */,
 				9B27450A241093080001FA2A /* Country.swift */,
+				9B01B4272411BEE600EE1BFD /* DataStorage.swift */,
 			);
 			path = Day3examples;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				9B27450924108D330001FA2A /* ThirdViewController.swift in Sources */,
 				9B2744F324106FED0001FA2A /* AppDelegate.swift in Sources */,
 				9B27450B241093080001FA2A /* Country.swift in Sources */,
+				9B01B4282411BEE600EE1BFD /* DataStorage.swift in Sources */,
 				9B2744F524106FED0001FA2A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

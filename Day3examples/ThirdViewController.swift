@@ -17,6 +17,7 @@ class ThirdViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        countryName = DataStorage.getInstance().getAllCountries()
 
         // Do any additional setup after loading the view.
     }
@@ -46,7 +47,7 @@ extension ThirdViewController : UITableViewDataSource, UITableViewDelegate
         return countryName.count
     }
     
-   func numberofSections(in tableView : UITableView) -> Int
+    func numberOfSections(in tableView : UITableView) -> Int
    {
        return 1
     }
@@ -59,5 +60,12 @@ extension ThirdViewController : UITableViewDataSource, UITableViewDelegate
         cell?.imageView?.image = country.flag
         return cell!
         
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let c = countryName[indexPath.row]
+        print(c)
+    }
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return CGFloat(100.0)
     }
 }
