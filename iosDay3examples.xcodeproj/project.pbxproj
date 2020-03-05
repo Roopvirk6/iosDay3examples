@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		9B2744F324106FED0001FA2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2744F224106FED0001FA2A /* AppDelegate.swift */; };
 		9B2744F524106FED0001FA2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2744F424106FED0001FA2A /* SceneDelegate.swift */; };
-		9B2744F724106FED0001FA2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2744F624106FED0001FA2A /* ViewController.swift */; };
+		9B2744F724106FED0001FA2A /* FViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2744F624106FED0001FA2A /* FViewController.swift */; };
 		9B2744FA24106FED0001FA2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2744F824106FED0001FA2A /* Main.storyboard */; };
 		9B2744FC24106FEE0001FA2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B2744FB24106FEE0001FA2A /* Assets.xcassets */; };
 		9B2744FF24106FEE0001FA2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2744FD24106FEE0001FA2A /* LaunchScreen.storyboard */; };
+		9B274507241071550001FA2A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B274506241071550001FA2A /* SecondViewController.swift */; };
+		9B27450924108D330001FA2A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B27450824108D330001FA2A /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9B2744EF24106FED0001FA2A /* Day3examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day3examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B2744EF24106FED0001FA2A /* iosDay3examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosDay3examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2744F224106FED0001FA2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B2744F424106FED0001FA2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9B2744F624106FED0001FA2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B2744F624106FED0001FA2A /* FViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FViewController.swift; sourceTree = "<group>"; };
 		9B2744F924106FED0001FA2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B2744FB24106FEE0001FA2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B2744FE24106FEE0001FA2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B27450024106FEE0001FA2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B274506241071550001FA2A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9B27450824108D330001FA2A /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +52,7 @@
 		9B2744F024106FED0001FA2A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9B2744EF24106FED0001FA2A /* Day3examples.app */,
+				9B2744EF24106FED0001FA2A /* iosDay3examples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,11 +62,13 @@
 			children = (
 				9B2744F224106FED0001FA2A /* AppDelegate.swift */,
 				9B2744F424106FED0001FA2A /* SceneDelegate.swift */,
-				9B2744F624106FED0001FA2A /* ViewController.swift */,
+				9B2744F624106FED0001FA2A /* FViewController.swift */,
 				9B2744F824106FED0001FA2A /* Main.storyboard */,
 				9B2744FB24106FEE0001FA2A /* Assets.xcassets */,
 				9B2744FD24106FEE0001FA2A /* LaunchScreen.storyboard */,
 				9B27450024106FEE0001FA2A /* Info.plist */,
+				9B274506241071550001FA2A /* SecondViewController.swift */,
+				9B27450824108D330001FA2A /* ThirdViewController.swift */,
 			);
 			path = Day3examples;
 			sourceTree = "<group>";
@@ -70,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9B2744EE24106FED0001FA2A /* Day3examples */ = {
+		9B2744EE24106FED0001FA2A /* iosDay3examples */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B27450324106FEE0001FA2A /* Build configuration list for PBXNativeTarget "Day3examples" */;
+			buildConfigurationList = 9B27450324106FEE0001FA2A /* Build configuration list for PBXNativeTarget "iosDay3examples" */;
 			buildPhases = (
 				9B2744EB24106FED0001FA2A /* Sources */,
 				9B2744EC24106FED0001FA2A /* Frameworks */,
@@ -82,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = Day3examples;
+			name = iosDay3examples;
 			productName = Day3examples;
-			productReference = 9B2744EF24106FED0001FA2A /* Day3examples.app */;
+			productReference = 9B2744EF24106FED0001FA2A /* iosDay3examples.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9B2744EA24106FED0001FA2A /* Build configuration list for PBXProject "Day3examples" */;
+			buildConfigurationList = 9B2744EA24106FED0001FA2A /* Build configuration list for PBXProject "iosDay3examples" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9B2744EE24106FED0001FA2A /* Day3examples */,
+				9B2744EE24106FED0001FA2A /* iosDay3examples */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B2744F724106FED0001FA2A /* ViewController.swift in Sources */,
+				9B274507241071550001FA2A /* SecondViewController.swift in Sources */,
+				9B2744F724106FED0001FA2A /* FViewController.swift in Sources */,
+				9B27450924108D330001FA2A /* ThirdViewController.swift in Sources */,
 				9B2744F324106FED0001FA2A /* AppDelegate.swift in Sources */,
 				9B2744F524106FED0001FA2A /* SceneDelegate.swift in Sources */,
 			);
@@ -291,7 +299,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = CestarCollege.Day3examples;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iosDay3examples;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -308,7 +316,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = CestarCollege.Day3examples;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iosDay3examples;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -317,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9B2744EA24106FED0001FA2A /* Build configuration list for PBXProject "Day3examples" */ = {
+		9B2744EA24106FED0001FA2A /* Build configuration list for PBXProject "iosDay3examples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B27450124106FEE0001FA2A /* Debug */,
@@ -326,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B27450324106FEE0001FA2A /* Build configuration list for PBXNativeTarget "Day3examples" */ = {
+		9B27450324106FEE0001FA2A /* Build configuration list for PBXNativeTarget "iosDay3examples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B27450424106FEE0001FA2A /* Debug */,
