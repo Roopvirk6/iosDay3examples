@@ -15,6 +15,7 @@
 		9B2744FF24106FEE0001FA2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2744FD24106FEE0001FA2A /* LaunchScreen.storyboard */; };
 		9B274507241071550001FA2A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B274506241071550001FA2A /* SecondViewController.swift */; };
 		9B27450924108D330001FA2A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B27450824108D330001FA2A /* ThirdViewController.swift */; };
+		9B27450B241093080001FA2A /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B27450A241093080001FA2A /* Country.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9B27450024106FEE0001FA2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B274506241071550001FA2A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		9B27450824108D330001FA2A /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		9B27450A241093080001FA2A /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				9B27450024106FEE0001FA2A /* Info.plist */,
 				9B274506241071550001FA2A /* SecondViewController.swift */,
 				9B27450824108D330001FA2A /* ThirdViewController.swift */,
+				9B27450A241093080001FA2A /* Country.swift */,
 			);
 			path = Day3examples;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				9B2744F724106FED0001FA2A /* FViewController.swift in Sources */,
 				9B27450924108D330001FA2A /* ThirdViewController.swift in Sources */,
 				9B2744F324106FED0001FA2A /* AppDelegate.swift in Sources */,
+				9B27450B241093080001FA2A /* Country.swift in Sources */,
 				9B2744F524106FED0001FA2A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

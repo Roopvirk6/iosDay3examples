@@ -12,13 +12,19 @@ class ThirdViewController: UIViewController {
     
     
     @IBOutlet weak var countrynamelist: UITableView!
-    var countryName = ["Afganistan", "Canada", "UK", "USA", "India", "Russia"]
+    var countryName : [Country] = []
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    func loadCountries()
+    {
+        countryName.append(Country(name: "India", capital: "Delhi", flag:#imageLiteral(resourceName: "pic1") ))
+        countryName.append(Country(name: "Afganistan", capital: "kabul", flag:#imageLiteral(resourceName: "pic2") ))
+        
     }
     
 
@@ -37,16 +43,20 @@ class ThirdViewController: UIViewController {
 extension ThirdViewController : UITableViewDataSource, UITableViewDelegate
 {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return countryName.count
     }
     
-   func numberofSections(in countrynamelist : UITableView) -> Int {
+   func numberofSections(in tableView : UITableView) -> Int
+   {
        return 1
     }
     func tableView(_ countrynamelist : UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let cell = countrynamelist.dequeueReusableCell(withIdentifier: "countryName")
-        cell?.textLabel?.text = countryName[indexPath.row]
+        let country = countryName[indexPath.row]
+        cell?.textLabel?.text = country.name
+        cell?.detailTextLabel?.text = country.capital
+        cell?.imageView?.image = country.flag
         return cell!
         
     }
